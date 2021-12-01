@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import NavBar from './NavBar/NavBar.js';
+import FoodList from "./Food/FoodList.js";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -47,8 +49,9 @@ const dbRef = ref(db);
 class App extends Component {
   render() {
     return (
-      <div>
-        
+      <div className="container">
+        <NavBar></NavBar>
+        <FoodList></FoodList>
       </div>
     );
   }

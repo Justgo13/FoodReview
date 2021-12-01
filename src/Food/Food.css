@@ -1,0 +1,13 @@
+#food-list {
+    position: relative;
+}
+
+.food-item {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.add-food {
+    display: flex;
+    justify-content: center;
+}
