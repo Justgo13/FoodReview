@@ -1,0 +1,26 @@
+{
+    "users": {
+        "some_id": {
+            "username": "",
+            "password": ""
+        } 
+    },
+
+    "foods": {
+        "some_id": {
+            "name": "",
+            "short_desc": "",
+            "long_desc": "",
+            "rating": 0,
+            "comments": {
+                "some_id": {
+                    "comment": "",
+                    "user": "",
+                    "date": ""
+                }
+                
+            },
+            "image_url": ""
+        }
+    }
+}

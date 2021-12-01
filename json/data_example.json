@@ -1,0 +1,25 @@
+{
+    "users": {
+        "123": {
+            "username": "jason",
+            "password": "123"
+        } 
+    },
+
+    "foods": {
+        "1234": {
+            "name": "Raviolli",
+            "short_desc": "An italian delicacy",
+            "long_desc": "A good italian delicacy",
+            "rating": 5,
+            "comments": {
+                "some_id": {
+                    "comment": "Perfection",
+                    "user": "Jason",
+                    "date": "Nov 30 2021"
+                }
+            },
+            "image_url": "some_url.jpg"
+        }
+    }
+}
